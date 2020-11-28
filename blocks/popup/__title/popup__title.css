@@ -1,0 +1,16 @@
+.popup__title {
+margin: 27px 0 44px;
+}
+
+@media creen and (max-width: 1280px) {
+  .popup__title {
+    margin-bottom: calc(44px - ((1280px - 100vw) * (-21 / 960)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .popup__title {
+    margin-bottom: 65px;
+  }
+}
+

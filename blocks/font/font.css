@@ -1,0 +1,7 @@
+.font { 
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}

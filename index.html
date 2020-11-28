@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
+</head>
+
+<body class="body">
+  <div class="page">
+
+    <header class="header">
+      <img src="./images/logo.svg" alt="Логотип" class="header__logo">
+    </header>
+
+    <main class="main">
+      <section class="profile">
+        <div class="profile__info-all">
+          <img src="./images/avatar.jpg" alt="Аватар" class="profile__avatar">
+          <div class="profile__profile-info">
+            <div class="profile__name-all">
+              <h1 class="profile__name font font_size_xl-variable">Жак-Ив Кусто</h1>
+              <button class="profile__edit-button button-icon">
+                <img src="./images/edit-button.svg" alt="Кнопка редактирования" class="profile__img-edit-button">
+              </button>
+            </div>
+            <p class="profile__info-about font font_size_m-variable">Исследователь океана</p>
+          </div>
+        </div>
+        <button class="profile__add-button button-icon"><img src="./images/add-button.svg" alt="Кнопка добавления"
+            class="profile__img-add-button"></button>
+      </section>
+
+      <section class="elements">
+        <ul class="elements__list-of-elements">
+
+          <li class="elements__element">
+            <img src="./images/Karachaevsk.jpg" alt="Пейзаж" class="elements__img">
+            <div class="elements__info">
+              <h2 class="elements__title font font_size_l-constant">Карачаевск</h2>
+              <button class="elements__like"><img src="./images/like.svg" alt=""></button>
+            </div>
+          </li>
+
+          <li class="elements__element">
+            <img src="./images/Elbrys.jpg" alt="Пейзаж" class="elements__img">
+            <div class="elements__info">
+              <h2 class="elements__title font font_size_l-constant">Гора Эльбрус</h2>
+              <button class="elements__like"><img src="./images/like.svg" alt=""></button>
+            </div>
+          </li>
+
+          <li class="elements__element">
+            <img src="./images/Dombai.jpg" alt="Пейзаж" class="elements__img">
+            <div class="elements__info">
+              <h2 class="elements__title font font_size_l-constant">Домбай</h2>
+              <button class="elements__like"><img src="./images/like.svg" alt=""></button>
+            </div>
+          </li>
+
+          <li class="elements__element">
+            <img src="./images/Elbrys.jpg" alt="Пейзаж" class="elements__img">
+            <div class="elements__info">
+              <h2 class="elements__title font font_size_l-constant">Гора Эльбрус</h2>
+              <button class="elements__like"><img src="./images/like.svg" alt=""></button>
+            </div>
+          </li>
+
+          <li class="elements__element">
+            <img src="./images/Dombai.jpg" alt="Пейзаж" class="elements__img">
+            <div class="elements__info">
+              <h2 class="elements__title font font_size_l-constant">Домбай</h2>
+              <button class="elements__like"><img src="./images/like.svg" alt=""></button>
+            </div>
+          </li>
+
+          <li class="elements__element">
+            <img src="./images/Karachaevsk.jpg" alt="Пейзаж" class="elements__img">
+            <div class="elements__info">
+              <h2 class="elements__title font font_size_l-constant">Карачаево-Черкесская Республика</h2>
+              <button class="elements__like"><img src="./images/like.svg" alt=""></button>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright font font_size_m-variable">&#169; 2020 Mesto Russia</p>
+    </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <div class="popup__in-container">
+          <h2 class="popup__title font font_size_l-variable">Редактировать профиль</h2>
+          <input type="text" class="popup__text font font_size_s-constant input__text_type_name input">
+          <input type="text" class="popup__text font font_size_s-constant input__text_type_about input">
+          <button class="popup__submit-button font font_size_m-variable">Сохранить</button>
+        </div>
+        <button class="popup__close-button button-icon"><img src="./images/close-button.svg" alt="Закрыть"
+            class="popup__img-close-button"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./scripts/script.js"></script>
+
+</body>
+
+</html>

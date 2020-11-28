@@ -1,0 +1,15 @@
+.popup__close-button {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  transform: translate(0%, -100%);
+  background: #000000;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+  .popup__close-button {
+    transform: translate(-120%, -170%);
+  }
+}

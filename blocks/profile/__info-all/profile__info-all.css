@@ -1,0 +1,10 @@
+.profile__info-all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+
+

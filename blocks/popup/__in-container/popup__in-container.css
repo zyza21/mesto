@@ -1,0 +1,6 @@
+.popup__in-container {
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}

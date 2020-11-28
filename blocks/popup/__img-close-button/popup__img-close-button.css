@@ -1,0 +1,12 @@
+.popup__img-close-button {
+  object-fit: contain;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .popup__img-close-button {
+    max-width: 20px;
+    max-height: 20px;
+  }
+}

@@ -7,7 +7,6 @@
 @media screen and (max-width: 1280px) {
   .font_size_xl-variable {
     font-size: calc(42px - ((1280px - 100vw) * (15 / 960)));
-    line-height: calc(1.14 - ((1280px - 100vw) * (-0.08 / 960)));
   }
 }
 

@@ -1,5 +1,7 @@
 .button-icon {
   border: none;
+  opacity: 1;
+  transition: opacity 0.2s linear 0.1s;
 }
 
 .button-icon:hover {

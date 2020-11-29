@@ -4,19 +4,27 @@
   justify-content: space-evenly;
   margin-left: 33px;
   min-height: 0;
-  max-width: 100%;
+  max-width: 500px;
 }
 
 @media screen and (max-width: 1280px) {
   .profile__profile-info {
     min-height: calc(0px - ((1280px - 100vw) * (-90 / 960)));
     margin-left: calc(33px - ((1280px - 100vw) * (33 / 960)));
+    max-width: calc(500px - ((1280px - 100vw) * (200 / 430)));
   }
+}
+
+@media screen and (max-width: 850px) {
+  .profile__profile-info {
+    max-width: calc(300px - ((850px - 100vw) * (38 / 530)));
+}
 }
 
 @media screen and (max-width: 320px) {
   .profile__profile-info {
     min-height: 90px;
     margin-left: 0;
+    max-width: 282px;
   }
 }

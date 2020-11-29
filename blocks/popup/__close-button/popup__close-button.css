@@ -2,13 +2,19 @@
   position: absolute;
   top: 0%;
   left: 100%;
-  transform: translate(0%, -100%);
-  padding: 0;
+  transform: translate(5%, -115%);
+  min-width: 30px;
+  min-height: 30px;
+  background-image: url('../../../images/close-button.svg');
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0);
 }
 
 @media screen and (max-width: 500px) {
   .popup__close-button {
-    transform: translate(-120%, -170%);
+    transform: translate(-130%, -185%);
+    min-width: 20px;
+    min-height: 20px;
   }
 }

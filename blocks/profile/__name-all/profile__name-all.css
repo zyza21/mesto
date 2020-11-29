@@ -1,6 +1,6 @@
 .profile__name-all {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
   margin: 0;
+  align-items: flex-end;
 }

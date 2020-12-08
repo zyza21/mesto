@@ -1,0 +1,14 @@
+.animation_type_close {
+  animation-name: close;
+  animation-duration: 2s;
+}
+
+
+@keyframes close {
+  100% {
+    display: none;
+    opacity: 0;}
+  0% {
+    display: block;
+    opacity: 1;}
+  }

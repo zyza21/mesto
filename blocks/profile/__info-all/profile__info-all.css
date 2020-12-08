@@ -2,9 +2,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
-
+@media screen and (max-width: 850px) {
+  .profile__info-all {
+    min-width: 100%;
+    justify-content: space-evenly;
+}
+}
 
 

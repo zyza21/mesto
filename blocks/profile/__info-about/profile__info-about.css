@@ -3,10 +3,26 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
 }
+
+@media screen and (max-width: 1280px) {
+  .profile__info-about {
+    font-size: calc(18px - ((1280px - 100vw) * (4 / 960)));
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .profile__info-about {
+    text-align: center;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .profile__info-about {
-    text-align: center;
+    font-size: 14px;
   }
 }

@@ -3,6 +3,9 @@
   padding-top: 41px;
   padding-bottom: 40px;
   max-width: 880px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
 }
 
 @media screen and (max-width: 1280px) {
@@ -10,6 +13,7 @@
     padding-top: calc(41px - ((1280px - 100vw) * (12 / 960)));
     padding-bottom: calc(40px - ((1280px - 100vw) * (25 / 960)));
     max-width: calc(880px - ((1280px - 100vw) * (598 / 960)));
+    font-size: calc(18px - ((1280px - 100vw) * (4 / 960)));
   }
 }
 
@@ -18,5 +22,6 @@
     padding-top: 29px;
     padding-bottom: 15px;
     max-width: 282px;
+    font-size: 14px;
   }
 }

@@ -40,7 +40,3 @@
 @import url('../blocks/popup-img/__img/popup-img__img.css');
 @import url('../blocks/popup-img/__caption/popup-img__caption.css');
 @import url('../blocks/popup-img/__close-button/popup__close-button.css');
-
-
-@import url('../blocks/animation/_type/animation_type_open.css');
-@import url('../blocks/animation/_type/animation_type_close.css');

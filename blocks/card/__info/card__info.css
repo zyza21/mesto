@@ -5,4 +5,5 @@
   margin: 22px 17px 25px 21px;
   white-space: nowrap;
   overflow: hidden;
+  min-height: 25px;
 }

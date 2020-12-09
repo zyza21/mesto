@@ -1,3 +1,4 @@
 .popup-img_active {
-  display: initial;
+  visibility: visible;
+  opacity: 1;
 }

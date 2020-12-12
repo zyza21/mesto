@@ -3,24 +3,5 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 430px;
-  min-height: 330px;
-  background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  color: rgba(0, 0, 0, 1);
-}
-
-@media screen and (max-width: 1280px) {
-  .popup__container {
-    min-width: calc(430px - ((1280px - 100vw) * (148 / 960)));
-    min-height: calc(330px - ((1280px - 100vw) * (8 / 960)));
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .popup__container {
-    min-width: 282px;
-    min-height: 322px;
-  }
+  margin: 0;
 }

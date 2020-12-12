@@ -2,7 +2,7 @@
   transform: translate(-100%, -70%);
 }
 @media screen and (max-width: 500px) {
-  .popup__close-button {
+  .popup__close-button_type_img {
     transform: translate(-185%, -70%);
   }
 }

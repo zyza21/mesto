@@ -88,6 +88,22 @@ openButtonAddCard.addEventListener('click', function () {
   openPopup(popupAddCard);
 });
 
+document.addEventListener('keydown', function (evt) {
+  const activePopup = document.querySelector('.popup_active');
+  if (evt.key === 'Escape') {
+    closePopup(activePopup);
+  }
+});
+
+
+document.addEventListener('click', function (evt) {
+  const targetElement = evt.target;
+  const activePopup = document.querySelector('.popup_active');
+  if ((targetElement === activePopup)) {
+    closePopup(activePopup);
+  }
+});
+
 closeButtonEditProfile.addEventListener('click', function () {
   closePopup(popupEditProfile);
 });
